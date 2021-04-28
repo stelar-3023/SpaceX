@@ -36,7 +36,7 @@ type Query {
       endpoint: "https://api.spacexdata.com/v4/launches/$id;?limit=1"
       setters: [
         { field: "webcast", path: "links.webcast" }
-        { field: "image", path: "links.flickr.original[0]" }
+        { field: "image", path: "links.flickr.original[]" }
       ]
     )
   next: [Mission]
