@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SpaceX-Launch-Dashboard/static/css/main.76cdbe42.chunk.css",
+    "main.js": "/SpaceX-Launch-Dashboard/static/js/main.e5b2547e.chunk.js",
+    "main.js.map": "/SpaceX-Launch-Dashboard/static/js/main.e5b2547e.chunk.js.map",
+    "runtime-main.js": "/SpaceX-Launch-Dashboard/static/js/runtime-main.d0fba8cb.js",
+    "runtime-main.js.map": "/SpaceX-Launch-Dashboard/static/js/runtime-main.d0fba8cb.js.map",
+    "static/js/2.30f45526.chunk.js": "/SpaceX-Launch-Dashboard/static/js/2.30f45526.chunk.js",
+    "static/js/2.30f45526.chunk.js.map": "/SpaceX-Launch-Dashboard/static/js/2.30f45526.chunk.js.map",
+    "index.html": "/SpaceX-Launch-Dashboard/index.html",
+    "static/css/main.76cdbe42.chunk.css.map": "/SpaceX-Launch-Dashboard/static/css/main.76cdbe42.chunk.css.map",
+    "static/js/2.30f45526.chunk.js.LICENSE.txt": "/SpaceX-Launch-Dashboard/static/js/2.30f45526.chunk.js.LICENSE.txt",
+    "static/media/960x0.b3c23036.jpeg": "/SpaceX-Launch-Dashboard/static/media/960x0.b3c23036.jpeg",
+    "static/media/spacex.07853917.svg": "/SpaceX-Launch-Dashboard/static/media/spacex.07853917.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0fba8cb.js",
+    "static/js/2.30f45526.chunk.js",
+    "static/css/main.76cdbe42.chunk.css",
+    "static/js/main.e5b2547e.chunk.js"
+  ]
+}
