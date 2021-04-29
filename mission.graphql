@@ -29,14 +29,14 @@ type Query {
   getImage(id: String!): [Image]
     @rest(
       endpoint: "https://api.spacexdata.com/v4/launches/$id;?limit=1"
-      setters: [{ field: "image", path: "links.flickr.original[]" }]
+      setters: [{ field: "image", path: "links.flickr.original" }]
     )
   mission(id: String!): Mission
     @rest(
       endpoint: "https://api.spacexdata.com/v4/launches/$id;?limit=1"
       setters: [
         { field: "webcast", path: "links.webcast" }
-        { field: "image", path: "links.flickr.original[]" }
+        { field: "image", path: "links.flickr.original[0]" }
       ]
     )
   next: [Mission]

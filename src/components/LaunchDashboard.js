@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
+
 import { useQuery } from "@apollo/react-hooks";
 import { GET_LAUNCH_DATA } from "../queries/getLaunchData";
 
@@ -12,9 +13,9 @@ import { PanelData } from "./PastListItems";
 const LaunchDashboard = () => {
   const { data, loading, error } = useQuery(GET_LAUNCH_DATA);
 
-  useEffect(() => {
-    console.log(data);
-  }, [data]);
+  //   useEffect(() => {
+  //     console.log(data);
+  //   }, [data]);
 
   if (loading) return <SolarSystemLoading color="#ffffff" speed={1.5} />;
   if (error) return <p>{error.message}</p>;
