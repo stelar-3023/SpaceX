@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/sethayotte/SpaceX-Launch-Dashboard/main/src/assets/spacex-01.png" alt="SpaceX Dashboard Logo" width="650"/>
 
-## Currently live @ https://sethayotte.github.io/SpaceX-Launch-Dashboard/
+## Currently live @ https://stelar-3023.github.io/SpaceX/
 
 \
 &nbsp;
